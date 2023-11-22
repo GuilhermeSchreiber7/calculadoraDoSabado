@@ -35,37 +35,3 @@ function multiplicar(a, b) {
     let dividir = a / b;
     resultado.innerHTML = dividir;
 }
-//*
-let selectdLanguage = document.querySelector("#idioma");
-selectdLanguage.addEventListener("change", function(){
-    if (this.value == "pt-br"){
-        btSoma.value = "Soma";
-        btSub.value = "Subtração"
-        btMulti.value = "Multiplicação"
-        btDiv.value = "Divisão" 
-    }
-    else if (this.value == "en"){
-        btSoma.value = "Sum";
-        btSub.value = "Subtraction";
-        btMulti.value = "Multiplication";
-        btDiv.value = "Division";
-    }
-    else if (this.value == "es"){
-        btSoma.value = "Suma";
-        btSub.value = "Sustracción"
-        btMulti.value = "Multiplicación"
-        btDiv.value = "División"
-    }
-    else if (this.value == "fr"){
-        btSoma.value = "Somme";
-        btSub.value = "Soustraction"
-        btMulti.value = "Multiplication"
-        btDiv.value = "Division"
-    }
-    else if (this.value == "it"){
-        btSoma.value = "Somma";
-        btSub.value = "Sottrazione"
-        btMulti.value = "Moltiplicazione"
-        btDiv.value = "Divisione"
-    }
-})
